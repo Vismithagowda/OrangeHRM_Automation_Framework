@@ -87,7 +87,7 @@ OrangeHRM_Automation_Framework
 │   │   │   └── utils
 │   │   │
 │   │   └── resources
-│   │       └── config.properties
+│   │       └── config.properties.example
 │   │
 │   └── test
 │       └── java
