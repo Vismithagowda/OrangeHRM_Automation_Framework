@@ -9,6 +9,7 @@ The framework automates key workflows of the OrangeHRM application and demonstra
 ## Application
 
 OrangeHRM Open Source Demo
+
 https://opensource-demo.orangehrmlive.com/
 
 ## Technologies Used
@@ -81,7 +82,6 @@ OrangeHRM_Automation_Framework
 ├── src
 │   ├── main
 │   │   ├── java
-│   │   │   ├── base
 │   │   │   ├── driver
 │   │   │   ├── pages
 │   │   │   └── utils
@@ -90,12 +90,17 @@ OrangeHRM_Automation_Framework
 │   │       └── config.properties.example
 │   │
 │   └── test
-│       └── java
-│           ├── tests
-│           └── listeners
+│       ├── java
+│       │   ├── base
+│       │   ├── listeners
+│       │   └── tests
+│       │
+│       └── resources
+│           ├── LoginData.xlsx
+│           └── testng.xml
 │
+├── screenshots
 ├── pom.xml
-├── testng.xml
 ├── .gitignore
 └── README.md
 ```
