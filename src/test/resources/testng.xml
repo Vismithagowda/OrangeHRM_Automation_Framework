@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OrangeHRM Test Suite">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="OrangeHRM Tests">
+
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.EmployeeTest"/>
+            <class name="tests.LeaveTest"/>
+            <class name="tests.AdminTest"/>
+            <class name="tests.RecruitmentTest"/>
+        </classes>
+
+    </test>
+
+</suite>
